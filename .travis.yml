@@ -7,3 +7,5 @@ before_install:
 
 script:
   - docker run akinsanya4/docker-react npm run test test -- --coverage
+
+install: travis_wait 30
